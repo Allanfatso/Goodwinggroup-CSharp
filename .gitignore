@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dbmdl
+*.cache
+*.log
+
+# Build results
+Debug/
+Release/
+
+# Others
+*.dll
+*.exe
