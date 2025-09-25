@@ -84,5 +84,24 @@ namespace goodwingroup_app
             return returnThese;
         }
 
+        internal int addSeries(SeriesClass serie)
+        {
+            MySqlConnection connection = new MySqlConnection(connectionstring);
+            connection.Open();
+
+            MySqlCommand command = new MySqlCommand("INSERT INTO `series`(`series_title`, `series_genre`, `year`, `image_name`, `description`) VALUES (@series, @genre, @year, @image, @descr)", connection);
+
+            command.Parameters.AddWithValue("@series", serie.series_title);
+            command.Parameters.AddWithValue("@genre", serie.series_genre);
+            command.Parameters.AddWithValue("@year", serie.year);
+            command.Parameters.AddWithValue("@image", serie.image_name);
+            command.Parameters.AddWithValue("@descr", serie.description);
+            int result = command.ExecuteNonQuery();
+
+
+            connection.Close();
+
+            return result;
+        }
     }
 }

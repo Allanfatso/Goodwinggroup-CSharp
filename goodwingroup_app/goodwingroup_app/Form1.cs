@@ -32,7 +32,7 @@ namespace goodwingroup_app
             seriesbindingsource.DataSource = seriesdao.GetallSeries();
 
             dataGridView1.DataSource = seriesbindingsource;
-            pictureBox1.Load("https://m.media-amazon.com/images/M/MV5BMjRmMTNiMTQtMDg1ZS00MGM1LWE1MGUtYjEzMGFjNWUzOWRkXkEyXkFqcGc@.jpg");
+            pictureBox1.Load("C:\\Users\\racon\\Downloads\\images\\sopranos.jpg");
 
         }
 
@@ -60,9 +60,65 @@ namespace goodwingroup_app
 
             int rowClicked = dataGrid.CurrentRow.Index;
 
-            String imageUrl = dataGrid.Rows[rowClicked].Cells[3].Value.ToString();
-            pictureBox1.Load(imageUrl);
-            MessageBox.Show(dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString());
+            String image = dataGrid.Rows[rowClicked].Cells[3].Value.ToString();
+            pictureBox1.Load(image);
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            SeriesClass serie = new SeriesClass
+            {
+                /*
+                 *  ID = reader.GetInt32(0),
+                        series_title = reader.GetString(1),
+                        series_genre = reader.GetString(2),
+                        year = reader.GetInt32(3),
+                        image_name = reader.GetString(4),
+                        description = reader.GetString(5),
+                 * 
+                 */
+                series_title = txt_s_name.Text,
+                series_genre = text_genre.Text,
+                year = Int32.Parse(text_year.Text),
+                image_name = text_image.Text,
+                description = text_descr.Text,
+                
+            };
+
+            SeriesDaOClass seriesdao = new SeriesDaOClass();
+            int result = seriesdao.addSeries(serie);
+            MessageBox.Show(result + " record added");
         }
     }
 }
