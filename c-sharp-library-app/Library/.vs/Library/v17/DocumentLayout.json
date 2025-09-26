@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\library\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\library\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\addbookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\addbookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\library\\viewbooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\viewbooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\viewbooksform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\viewbooksform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\viewbooksform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\viewbooksform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\viewbooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\viewbooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|c:\\users\\racon\\herd\\c-sharp-database-app\\library\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F143208D-2D06-44D0-9FFD-1058C0DAAE8C}|Library\\Library.csproj|solutionrelative:library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 383,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Library\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\MainForm.Designer.cs",
+              "RelativeToolTip": "Library\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:25:46.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\MainForm.cs",
+              "RelativeDocumentMoniker": "Library\\MainForm.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\MainForm.cs [Design]",
+              "RelativeToolTip": "Library\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:46:14.584Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:30:16.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\MainForm.cs",
+              "RelativeDocumentMoniker": "Library\\MainForm.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\MainForm.cs",
+              "RelativeToolTip": "Library\\MainForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:46:38.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddBookForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\AddBookForm.cs",
+              "RelativeDocumentMoniker": "Library\\AddBookForm.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\AddBookForm.cs [Design]",
+              "RelativeToolTip": "Library\\AddBookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:04:47.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddBookForm.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\AddBookForm.cs",
+              "RelativeDocumentMoniker": "Library\\AddBookForm.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\AddBookForm.cs",
+              "RelativeToolTip": "Library\\AddBookForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:27:49.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddBookForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\AddBookForm.Designer.cs",
+              "RelativeDocumentMoniker": "Library\\AddBookForm.Designer.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\AddBookForm.Designer.cs",
+              "RelativeToolTip": "Library\\AddBookForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:49:11.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\DBHelper.cs",
+              "RelativeDocumentMoniker": "Library\\DBHelper.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\DBHelper.cs",
+              "RelativeToolTip": "Library\\DBHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:18:08.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewBooksForm.resx",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.resx",
+              "RelativeDocumentMoniker": "Library\\ViewBooksForm.resx",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.resx",
+              "RelativeToolTip": "Library\\ViewBooksForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-26T05:25:37.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewBooksForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.cs",
+              "RelativeDocumentMoniker": "Library\\ViewBooksForm.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.cs [Design]",
+              "RelativeToolTip": "Library\\ViewBooksForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:26:05.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewBooksForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.Designer.cs",
+              "RelativeDocumentMoniker": "Library\\ViewBooksForm.Designer.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.Designer.cs",
+              "RelativeToolTip": "Library\\ViewBooksForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:12:22.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewBooksForm.cs",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.cs",
+              "RelativeDocumentMoniker": "Library\\ViewBooksForm.cs",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\ViewBooksForm.cs",
+              "RelativeToolTip": "Library\\ViewBooksForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T04:56:09.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\appsettings.json",
+              "RelativeDocumentMoniker": "Library\\appsettings.json",
+              "ToolTip": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\appsettings.json",
+              "RelativeToolTip": "Library\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-26T03:23:54.28Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 17,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
