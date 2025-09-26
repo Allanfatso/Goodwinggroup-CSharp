@@ -45,9 +45,12 @@
             label2 = new Label();
             label3 = new Label();
             label1 = new Label();
+            label6 = new Label();
+            dataGridView2 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -66,13 +69,13 @@
             dataGridView1.Location = new Point(403, 49);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(533, 225);
+            dataGridView1.Size = new Size(682, 130);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // button2
             // 
-            button2.Location = new Point(796, 12);
+            button2.Location = new Point(945, 14);
             button2.Name = "button2";
             button2.Size = new Size(140, 31);
             button2.TabIndex = 2;
@@ -211,11 +214,33 @@
             label1.Text = "series genre";
             label1.Click += label1_Click;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(693, 198);
+            label6.Name = "label6";
+            label6.Size = new Size(77, 25);
+            label6.TabIndex = 6;
+            label6.Text = "Seasons";
+            label6.Click += label6_Click;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(403, 235);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 62;
+            dataGridView2.Size = new Size(682, 111);
+            dataGridView2.TabIndex = 7;
+            dataGridView2.CellContentClick += dataGridView2_CellContentClick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1352, 450);
+            Controls.Add(dataGridView2);
+            Controls.Add(label6);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(textBox1);
@@ -229,6 +254,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -252,5 +278,7 @@
         private TextBox text_genre;
         private TextBox txt_s_name;
         private Button Add;
+        private Label label6;
+        private DataGridView dataGridView2;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("goodwingroup_app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb37551cecb2fc04ffcf9f52b3948c306bff20fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a5826c217ab7c863635510f0ca127294e4b1153")]
 [assembly: System.Reflection.AssemblyProductAttribute("goodwingroup_app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("goodwingroup_app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,6 +38,9 @@ namespace goodwingroup_app
                         description = reader.GetString(5),
                        
                     };
+
+                    s.seasons = getSeasons(s.ID);
+
                     returnThese.Add(s);
                 }
             }
@@ -103,5 +106,47 @@ namespace goodwingroup_app
 
             return result;
         }
+
+        public List<Seasons> getSeasons(int seriesid)
+        {
+
+            List<Seasons> returnThese = new List<Seasons>();
+            //connect to mysql database and return all series
+            MySqlConnection connection = new MySqlConnection(connectionstring);
+            connection.Open();
+
+            MySqlCommand command = new MySqlCommand();
+
+            command.CommandText = "SELECT * FROM seasons WHERE series_id = @seriesid";
+            command.Parameters.AddWithValue("@seriesid", seriesid);
+            command.Connection = connection;
+
+            using (MySqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Seasons s = new Seasons
+                    {
+                       ID = reader.GetInt32(0),
+                       series_id = reader.GetInt32(1),
+                       seasonTitle = reader.GetString(2),
+                       description = reader.GetString(3),
+                       trailer = reader.GetString(4),
+
+
+                    };
+                    returnThese.Add(s);
+                }
+            }
+
+            connection.Close();
+
+            return returnThese;
+        }
+
+
+
     }
+
+
 }

@@ -18,5 +18,7 @@ namespace goodwingroup_app
         public String description { get; set; }
 
         public String series_genre { get; set; }
+
+        public List<Seasons> seasons { get; set; }
     }
 }

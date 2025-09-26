@@ -3,6 +3,8 @@ namespace goodwingroup_app
     public partial class Form1 : Form
     {
         BindingSource seriesbindingsource = new BindingSource();
+        BindingSource seasonbindingsource = new BindingSource();
+        List<SeriesClass> series = new List<SeriesClass>();
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +32,7 @@ namespace goodwingroup_app
 
 
             seriesbindingsource.DataSource = seriesdao.GetallSeries();
+
 
             dataGridView1.DataSource = seriesbindingsource;
             pictureBox1.Load("C:\\Users\\racon\\Downloads\\images\\sopranos.jpg");
@@ -63,6 +66,13 @@ namespace goodwingroup_app
             String image = dataGrid.Rows[rowClicked].Cells[3].Value.ToString();
             pictureBox1.Load(image);
 
+            SeriesDaOClass SeriesDaO = new SeriesDaOClass();
+
+            seasonbindingsource.DataSource = SeriesDaO.getSeasons((int)dataGrid.Rows[rowClicked].Cells[0].Value);
+
+            //seasonsbindingsource.DataSource = seasonsdao.GetallSeries();
+
+            dataGridView2.DataSource = seasonbindingsource;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -113,12 +123,23 @@ namespace goodwingroup_app
                 year = Int32.Parse(text_year.Text),
                 image_name = text_image.Text,
                 description = text_descr.Text,
-                
+
             };
 
             SeriesDaOClass seriesdao = new SeriesDaOClass();
             int result = seriesdao.addSeries(serie);
             MessageBox.Show(result + " record added");
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+
         }
     }
 }
