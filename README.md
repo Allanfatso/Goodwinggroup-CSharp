@@ -66,7 +66,8 @@ A **TV Catalogue Application** that stores and displays TV programs.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+ [  git clone https://github.com/yourusername/your-repo-name.git](https://github.com/Allanfatso/Goodwinggroup-CSharp).git
+
    ```
 2. Open the project folder (`c-sharp-library-app` or `goodwinggroup_app`) in Visual Studio.
 3. Restore NuGet dependencies (MySQL.Data).
