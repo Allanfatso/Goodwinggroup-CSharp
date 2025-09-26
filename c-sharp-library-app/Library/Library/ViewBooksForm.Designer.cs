@@ -113,6 +113,7 @@ namespace Library
             Controls.Add(btnDelete);
             Name = "ViewBooksForm";
             StartPosition = FormStartPosition.CenterParent;
+            Load += ViewBooksForm_Load_1;
             ((System.ComponentModel.ISupportInitialize)dgvBooks).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -99,5 +99,9 @@ namespace Library
             btnEdit_Click(sender, e);
         }
 
+        private void ViewBooksForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

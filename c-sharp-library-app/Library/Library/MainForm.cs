@@ -25,7 +25,7 @@ namespace Library
             }
             catch (Exception ex)
             {
-                // Show the real error so we can fix it (connection/permission/nuget issues)
+               
                 lblTotal.Text = $"Total books: (error)";
                 MessageBox.Show($"Failed to load total books:\n{ex.Message}", "Database error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

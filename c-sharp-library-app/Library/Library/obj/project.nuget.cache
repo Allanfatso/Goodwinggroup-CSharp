@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5PD4f1Dcejk=",
+  "dgSpecHash": "BVqxFqEiao0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\racon\\Herd\\c-sharp-database-app\\Library\\Library\\Library.csproj",
+  "projectFilePath": "C:\\Users\\racon\\Herd\\Goodwinggroup-CSharp\\c-sharp-library-app\\Library\\Library\\Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\racon\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\racon\\.nuget\\packages\\compent.shared.configurationprovider.contract\\0.2.0\\compent.shared.configurationprovider.contract.0.2.0.nupkg.sha512",
